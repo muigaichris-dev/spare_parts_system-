@@ -1,0 +1,23 @@
+.spares{
+    background-color: darkslategrey;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 10px 15px;
+}
+.add{
+    padding: 10px 15px;
+    gap: 10px;
+}
+ul li a:hover{
+    background-color: #f0f0f0;
+}

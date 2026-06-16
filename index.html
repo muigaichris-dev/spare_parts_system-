@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPARE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="spares">
+        <h1>Spare parts management system</h1>
+        <nav>
+        <ul>
+        <li><a href="#Dashboard">Dashboard</a></li>
+        <li><a href="#SparePartsadd">Add spare part</a></li>
+        <li><a href="#Sparepartslist">Spare parts List</a></li>
+      <li><a href="#Categories">Categories</a></li>
+        <li><a href="#Suppliers">Suppliers</a></li>
+        <li><a href="#Orders">Orders</a></li>
+        </ul>
+        </nav>
+    </div>
+    <div id="Dashboard">
+        <h2>Dashboard</h2>
+        <p>Welcome to spare parts management system</p>
+    </div>
+    <div id="SparePartsadd" class="add">
+        <h2>Add spare part</h2>
+        <form>
+        <input type="text"   placeholder="partname">
+        <input type="text"   placeholder="category">
+        <input type="text"   placeholder="search spare parts...">
+        <input type="number" placeholder="price">
+         <button type="submit">Add part</button>
+        </form>
+    </div>
+    <div id="Sparepartslist">
+    <H2>Spare parts list</H2>
+    <input type="text" placeholder="search spare parts...">
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Part name</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th colspan="2">Action</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Brake pad</td>
+            <td>1500</td>
+            <td>Brakes</td>
+            <td><button class="Upd" type="submit">Update</button></td>
+            <td><button class="Del" type="submit">Delete</button></td>
+            </tr>
+            <tr>
+            <td>2</td>
+            <td>Engine oil</td>
+            <td>900</td>
+            <td>Lubricants</td>
+            <td><button class="Upd" type="submit">Update</button></td>
+            <td><button class="Del" type="submit">Delete</button></td>
+        </tr>
+    </table>
+    <div id="Categories">
+        <h2>Categories</h2>
+        <p>Manage spare part categories here.</p>
+    </div>
+    <div id="Suppliers">
+        <h2>Suppliers</h2>
+        <p>Manage supplier information here.</p>
+    </div>
+    <div id="Orders">
+        <h2>Orders</h2>
+        <P>Track and manage orders here. </P>
+    </div>
+    
+</body>
+</html>
