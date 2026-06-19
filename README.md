@@ -1,1 +1,1 @@
-# spare_parts_system-
+A clean, functional-style dashboard interface for managing spare parts inventory. Built with HTML and CSS, this page provides a foundation for a spare parts tracking system with navigation, add-part form, parts list table, and placeholder sections for categories, suppliers, and orders.
